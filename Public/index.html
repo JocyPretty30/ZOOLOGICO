@@ -1,10 +1,54 @@
+Public\index.html
+@@ -1,119 +1,186 @@
 <!DOCTYPE HTML>
 <!--
 	Lens by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<html>
+    <head>
+        <title>ZOOLOGICO de Angel y Jocy </title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        
+        <link rel="stylesheet" href="assets/css/main.css" /> 
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        
+        <style>
+            
+            #sidebar {
+                display: none !important;
+                visibility: hidden !important;
+                position: absolute !important;
+            }
+            #topbar {
+                position: fixed !important; 
+                top: 0 !important;
+                left: 0 !important;
+                width: 100% !important;
+                background-color: rgb(18, 67, 16) !important; 
+                z-index: 9999999 !important; 	
+                padding: 10px 20px !important;
+                display: flex !important;
+                justify-content: space-between !important;
+                align-items: center !important;
+                box-sizing: border-box !important;
+                border-bottom: 2px solid rgb(119, 188, 228) !important; 
+            }
+            #topbar h2, #topbar a { color: rgb(255, 255, 255) !important; text-decoration: none !important; }
+            #topbar ul { list-style: none !important; margin: 0 !important; padding: 0 !important; display: flex !important; }
+            #topbar ul li { margin-left: 20px !important; }
+            
 
+            #wrapper { 
+                padding-top: 50px !important; 
+                display: block !important; 
+                min-height: 100vh !important;
+            }
+            #main {
+                display: block !important; 
+            }
 
 <html>
 	<head>
@@ -15,28 +59,87 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload-0 is-preload-1 is-preload-2">
+      
+            .carousel {
+                margin: 0 !important;
+                padding: 0 !important;
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
 
-		<!-- Main -->
+            #thumbnails {
+                display: flex !important;
+                flex-wrap: wrap !important;
+                justify-content: space-around !important; 
+                width: 100% !important; 
+                max-width: 1200px !important; 
+                margin: 20px auto !important; 
+                padding: 20px 0 !important; 
+            }
+            #thumbnails article {
+                width: 45% !important; 
+                padding: 10px !important; 
+                box-sizing: border-box !important;
+                margin: 10px !important;
+                border: 1px solid #24bf33 !important; 
+                border-radius: 8px !important; 
+                box-shadow: 0 2px 5px rgb(230, 230, 12) !important; 
+                background-color: rgb(19, 228, 169) !important; 
+            }
+            #thumbnails article img {
+                width: 100% !important;
+                height: 180px !important; 
+                object-fit: cover !important; 
+                border-radius: 4px !important;
+            }
+
+        </style>
+    </head>
+
+    <body> 
+        
+                <nav id="topbar">
+            <h2>ZOOLOGICO (Angel y Joss)</h2>
+            <ul>
+                <li><a href=https://www.wameru.mx/animales>Animales</a></li>
+                <li><a href=https://www.google.com/maps/@20.5725396,-100.2086383,3a,18.7y,127.23h,87.01t/data=!3m7!1e1!3m5!1swAA9X_qp5Bca7B095HABdA!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D2.9887755038564023%26panoid%3DwAA9X_qp5Bca7B095HABdA%26yaw%3D127.22503054045109!7i16384!8i8192?entry=ttu&g_ep=EgoyMDI1MTAwNy4wIKXMDSoASAFQAw%3D%3D="_blank">Ubicación</a></li> 
+                <li><a href="#footer">Contacto</a></li>
+                <li><a href="URL_DE_COMPRA_BOLETOS" style="background-color: rgb(66, 156, 161); font-weight: bold;">Comprar Boletos</a></li> 
+            </ul>
+        </nav>
+
+        <div id="wrapper"> 
+            
+            <div id="main">
+
 			<div id="main">
-
-				<!-- Header -->
-					<header id="header" style="background-color: rgb(228, 119, 228); color: rgb(255, 255, 255); padding: 20px;">
-    <h1>ZOOLOGICO</h1>
-    <p style="font-family: 'Times New Roman', Times, serif;">BIENVENIDO AL ZOOLOGICO DE ANGEL Y JOSS LA MEJOR EXPERIENCIA QUE TENDRÁS!! 
-        <a href="http://html5up.net" style="color: yellow;">4427158595 Reserva para una mejor atención</a>
-    </p>
-    <a href="https://www.wameru.mx/" style="color: rgb(13, 151, 13);">horarios</a>
+                <div class="carousel">
+                    <div class="reel">
+                        <article>
+                            <a href="#" class="image featured"><img src="images/fulls/ZOO_LOGO.jpg" alt="Imagen principal 1" /></a>
+                            <header><h3><a href="#">¡Bienvenidos!</a></h3></header>
+                            <p>Vive la Naturaleza en el Parque Zoológico de Angel y Jocy</p>
+                        </article>
+                        
+                        </div>
+                </div>
 </header>
+                                <header id="header" style="background-color: rgb(228, 119, 228); color: rgb(255, 255, 255); padding: 20px; text-align: center;">
+                    <h1>ZOOLOGICO</h1>
+                    <p style="font-family: 'Times New Roman', Times, serif;">BIENVENIDO AL ZOOLOGICO DE ANGEL Y JOSS LA MEJOR EXPERIENCIA QUE TENDRÁS!! 
+                        <a href="http://html5up.net" style="color: yellow;">4427158595 Reserva para una mejor atención</a>
+                    </p>
+                    <a href="https://www.wameru.mx/" style="color: rgb(13, 151, 13);">horarios</a>
+                </header>
 
-				<!-- Thumbnail -->
 					<section id="thumbnails">
 						<article>
-							<a class="thumbnail" href="images/fulls/ZOO_02.jpg" data-position="left center"><img src="images/thumbs/ZOO_02.jpg" alt="" /></a>
-							<h2>ANGEL RESENDIZ Y JOCELYNE MENDEZ</h2>
+							<a class="thumbnail" href= "images/fulls/León.jpg"><img src="images/thumbs/León.jpg"" /></a>
+							<h2>"ANGEL RESENDIZ Y JOCELYNE MENDEZ</h2>
 							<p>AMANTES DEL ZOOLOGICO</p>
 						</article>
 						<article>
-							<a class="thumbnail" href="images/fulls/OSO.jpg"><img src="images/thumbs/OSO.jpg" alt="" /></a>
+							<a class="thumbnail" href="images/fulls/TIGRE.jpg"><img src="images/thumbs/TIGRE.jpg" alt="" /></a>
 							<h2>Vivamus convallis libero</h2>
 							<p style="background-color: rgb(9, 173, 9); width: 500px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">Sed velit lacus, laoreet at venenatis convallis in lorem tincidunt.</p>
 							<a href="https://www.nationalgeographic.com.es/animales/osos-panda">osos-panda</a></p>
@@ -93,9 +196,10 @@
 							<p>Feugiat auctor leo massa, nec vestibulum nisl erat faucibus, rutrum nulla.</p>
 						</article>
 					</section>
+                                <section id="thumbnails">
 
-				<!-- Footer -->
-					<footer id="footer">
+
+				
 						<ul class="copyright">
 							<li>&copy; Untitled.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a>.</li>
 							<ul class="icons">
@@ -103,17 +207,21 @@
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-whatsapp"><span class="label">fa-whatsapp</span></a>11170923</li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						</ul>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
+						
+                    </footer>
+.i
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/main.js"></script>
+            </div>
+        </div> 
+        
+                <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/main.js"></script>
 
 	</body>
+    </body>
 </html>
